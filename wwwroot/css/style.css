@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > * {
+    flex: 1;
+  }
+  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+  }
+  
+  #mensagem, #nome, #github, #sobrenome {
+    color: #004545;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+  }
+  span{
+    color: tomato;
+    font-weight: bold;
+  }
